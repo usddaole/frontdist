@@ -1,0 +1,1 @@
+import{l as r}from"./index-Byela3g6.js";import{E as e}from"./element-DFZjHg88.js";function l(){r({url:"sysConfig/commonConfig/NA.ReloadAllConfigData",method:"post"}).then(o=>{o.code===0?e.success("同步成功"):e.error(o.message)}).catch(o=>{console.error("请求失败:",o),e.error("请求失败，请检查网络连接")})}export{l as r};

@@ -1,0 +1,1 @@
+import{r,w as u,f}from"./vue-Bxt8yOKZ.js";function h({api:n,params:a,immediate:s=!0}){const c=r([]),l=r(null),t=r(!1),e=async()=>{if(n)try{t.value=!0;const o=await n(a);c.value=o.data||[]}catch(o){console.error("获取下拉数据失败",o)}finally{t.value=!1}};return u(()=>a,e,{immediate:s}),f(()=>{s&&e()}),{options:c,value:l,loading:t,fetch:e}}export{h as u};

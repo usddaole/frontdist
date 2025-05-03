@@ -1,0 +1,1 @@
+import{f as i}from"./index-Byela3g6.js";const p=i();function e(t){return p.appRatio===0&&(p.appRatio=1e4),(t/p.appRatio).toFixed(2)}function n(t){return p.appRatio===0&&(p.appRatio=1e4),t*p.appRatio}export{n as a,e as p};
